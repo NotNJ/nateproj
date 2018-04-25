@@ -26,3 +26,7 @@ Route::get('/about', function(){
 });
 
 Route::get('/store', 'RegisterController@shop');
+
+Route::get('/images', function(){
+	return view('images');
+});
