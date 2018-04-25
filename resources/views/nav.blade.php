@@ -5,7 +5,7 @@
 				<a href="/" class="image-link"><img src="https://i.imgur.com/H1eDQhG.png" alt="NJ"></a>
 			</li>
 		</div>
-		<div class="col-4">
+		<div class="col-5">
 			<li class="small-50">
 				<a href="/store" class="normal-link">Store</a>
 			</li>
