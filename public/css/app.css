@@ -10395,8 +10395,8 @@ a.text-dark:focus {
 }
 
 body {
-  background-color: #343a40;
-  color: #c0c0c0;
+  background-color: #EEEEEE;
+  color: #343a40;
 }
 
 .main-nav {
@@ -10493,5 +10493,24 @@ body {
 
 .main-nav .primary-nav .logo {
   border: none;
+}
+
+.welcome-image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.polaroid {
+  width: 540px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.polaroid-container {
+  text-align: center;
+  padding: 10px 20px;
 }
 
