@@ -30,3 +30,7 @@ Route::get('/store', 'RegisterController@shop');
 Route::get('/images', function(){
 	return view('images');
 });
+
+Route::post('/saveImageRow', 'RegisterController@images');
+
+Route::get('/fetchAllImageRows', 'RegisterController@fetchAllImageRows');

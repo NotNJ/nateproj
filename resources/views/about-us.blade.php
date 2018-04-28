@@ -1,11 +1,12 @@
-@extends('layouts.app')
-@include('layouts.header')
-<title>About Us</title>
-@include('layouts.header2')
-@include('nav')
-    <body>
-        <div>
-          <p>You're on the about page!</p>
-        </div>
-    </body>
-</html>
+@extends('includes.app')
+
+@section('content')
+
+<div id="aboutPage">
+	@include('includes.nav')
+
+	<div>
+      	<p>You're on the about page!</p>
+    </div>
+</div>
+@endsection
